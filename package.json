@@ -1,0 +1,21 @@
+{
+  "name": "testing-unit-test-practice",
+  "version": "1.0.0",
+  "description": "``` npm install npm test              # runs Jest npm run test:watch    # runs Jest in watch mode npm run test:coverage # runs Jest with a coverage report ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@babel/core": "^8.0.1",
+    "@babel/preset-env": "^8.0.2",
+    "babel-jest": "^30.4.1",
+    "jest": "^30.4.2"
+  }
+}
